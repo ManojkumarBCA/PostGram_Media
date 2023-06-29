@@ -1,0 +1,74 @@
+.login {
+height: 752px;
+    background-image: url('/public/BGPublic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vmax;
+    box-sizing: border-box;
+}
+
+.loginForm {
+    opacity: 0.7;
+        background-color: whitesmoke;
+        width: 40%;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding: 1vmax;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.loginForm>input {
+    box-sizing: border-box;
+        padding: 1vmax;
+        width: 70%;
+        border-radius: 5px;
+        border: 1px solid #006266;
+        margin: .5vmax;
+        font: 50 1.2rem "" Roboto", sans-serif";
+        outline: none;
+}
+
+.loginForm>a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.342);
+    margin: 2vmax;
+}
+
+@media screen and (max-width: 600px) {
+    .loginForm {
+        width: 100%;
+    }
+
+    .loginForm>input {
+        padding: 4vw 8vw;
+        margin: 2vmax;
+        font: 100 1.2rem "Roboto", sans-serif;
+        margin: 4vw;
+    }
+
+    .loginForm>a {
+        align-self: center;
+    }
+}
+
+.button {
+    border: 1.8px solid#218c74;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 28px;
+    background: #f7f1e3;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover {
+    background: #273c75;
+    cursor: pointer;
+    color: whitesmoke;
+}
